@@ -19,13 +19,21 @@ Required files:
 Firmware files from github
 
 1 - Reaver Pro Firmware
+
 2 - Stock OpenWRT Firmware - For flashing before you can flash with the Reaver Pro firmware.
+
 3 - PL2303 Prolific Driver - Driver for the Serial TTL Cable.
+
 4 - putty - For accessing serial interface on reaver pro.
+
 DOWNLOAD PUTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
 5 - tftpd32 - This is a File server that allows us to send over the OpenWRT firmware via Serial.
+
 DOWNLOAD TFTPD32: http://tftpd32.jounin.net/tftpd32_download.html
+
 6 - Flashing Steps.
+
 7 - An Image of what the Serial Pins look like on Reaver Pro. You need to connect the cables like I say below...
 
 Please note that the PL2303 driver will only work with the Serial TTL Cable from the Google URL Above, If you have a differnet Serial TTL cable then that download that driver.
