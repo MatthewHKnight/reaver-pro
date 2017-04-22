@@ -70,3 +70,12 @@ and the Speed needs to be:
 Speed: 115200
 very important that the speed is set to 115200
 the COM you need to set as well when you connect the serial TTL go to the device manager on Windows and see what COM the Prolific is set on mine was COM4 but yours might be different.
+
+FLASHING COMMANDS:
+setenv serverip 192.168.2.11; setenv ipaddr 192.168.2.1
+
+tftp 0xa0800000 openwrt-ar71xx-generic-hornet-ub-x2-squashfs-sysupgrade.bin
+
+erase 0x9f050000 +0xf60000
+
+cp.b 0xa0800000 0x9f050000 0xf60000 
